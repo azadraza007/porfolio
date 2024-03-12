@@ -1,6 +1,6 @@
 import React from "react";
 import zee5 from "../assets/ZEE5-Logo-700x394.webp";
-import reddit from "../assets/reddit-logo-png.webp";
+import ai from "../assets/ai.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -11,9 +11,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reddit,
-      demoLink: "",
-      codeLink: "",
+      src: ai,
+      demoLink: "https://brainwwave.netlify.app/",
+      codeLink: "https://github.com/azadraza007/brainwave.git",
     },
   ];
 
